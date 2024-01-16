@@ -48,7 +48,7 @@ btn.onclick = () => {
 
             for (const post of posts) {
                 const postDiv = document.createElement('div');
-                postDiv.innerText = `${post.title}`;
+                postDiv.innerHTML = `<p>${post.title}</p>`;
                 postDiv.classList.add('post')
                 postTitle.append(postDiv)
                 btn.disabled = true;

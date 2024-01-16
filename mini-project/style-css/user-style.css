@@ -55,7 +55,9 @@ body {
     margin-bottom: 15px;
 }
 
-.btn {
-    margin-top: 20px;
+.post>p {
+    display: block;
+    height: 40%;
 }
+
 
