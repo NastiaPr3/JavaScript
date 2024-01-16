@@ -1,12 +1,13 @@
 body {
+    background: silver;
+
     display: flex;
     align-items: center;
     justify-content: center;
-    background: silver;
 }
 
 .mainDiv {
-    width: 500px;
+    width: 33vw;
     height: 100%;
 
     display: flex;
@@ -16,8 +17,8 @@ body {
 }
 
 .userBlock {
-    width: 200px;
-    height: 200px;
+    width: 13vw;
+    height: 28vh;
     background: #ababab;
 
     box-sizing: border-box;
@@ -27,7 +28,7 @@ body {
 }
 
 .txt {
-    margin-top: 50px;
+    margin-top: 70px;
     margin-bottom: 20px;
 }
 
