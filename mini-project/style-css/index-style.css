@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: silver;
+}
+
+.mainDiv {
+    width: 500px;
+    height: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.userBlock {
+    width: 200px;
+    height: 200px;
+    background: #ababab;
+
+    box-sizing: border-box;
+    border: 1px solid black;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.txt {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
